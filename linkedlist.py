@@ -81,7 +81,7 @@ class LinkedList:
             listrep.append(str(curr.value))
             rep = rep + " " + str(curr.value)
             curr = curr.next
-        return "-> ".join(listrep)
+        return " -> ".join(listrep)
 
 
 def main():
